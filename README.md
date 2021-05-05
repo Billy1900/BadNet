@@ -1,27 +1,23 @@
-# README
+A simple PyTorch implementations of [Badnets: Identifying vulnerabilities in the machine learning model supply chain](https://arxiv.org/abs/1708.06733) on MNIST and CIFAR10.
 
-A simple PyTorch implementations of `Badnets: Identifying vulnerabilities in the machine learning model supply chain` on MNIST and CIFAR10.
+# 1. Requirements
+torch==1.7.0
+torchvision==0.8.1
+pandas==1.1.4
+numpy==1.19.4
+matplotlib==3.3.2
+tqdm==4.51.0
+scikit_learn==0.23.2
 
-
-## Install
-
-```
-$ git clone https://github.com/verazuo/badnets-pytorch.git
-$ cd badnets-pytorch
-$ pip install -r requirements.txt
-```
-
-## Usage
-
-
-### Download Dataset
+# 2. Usage
+## 2.1 Download Dataset
 Run below command to download `MNIST` and `cifar10` into `./dataset/`.
 
 ```
 $ python data_downloader.py
 ```
 
-### Run Backdoor Attack
+## 2.2 Run Backdoor Attack
 By running below command, the backdoor attack model with mnist dataset and trigger label 0 will be automatically trained.
 
 ```
@@ -190,7 +186,7 @@ optional arguments:
 
 
 
-## Structure
+# 3. Project Structure
 
 ```
 .
