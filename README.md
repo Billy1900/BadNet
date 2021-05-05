@@ -199,18 +199,8 @@ optional arguments:
 ├── dataset/       # save datasets.
 ├── logs/          # save run logs.
 ├── models/        # store definitions and functions of models
-├── utils/         # general tools.
-├── LICENSE
+├── utils/         # tools (like training functions)
 ├── README.md
 ├── main.py   # main file of badnets.
-├── deeplearning.py   # model training funtions
 └── requirements.txt
 ```
-
-## Contributing
-
-PRs accepted.
-
-## License
-
-MIT © Vera
